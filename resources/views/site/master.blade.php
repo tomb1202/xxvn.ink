@@ -207,12 +207,12 @@
         <div id="header">
             <header>
                 <h1 class="hidden">{{ $settings['site_name'] ?? 'MeSex.tv' }}</h1>
-                <div id="logo">
+                <div id="logo" style="margin-top: 0">
                     <div itemscope="" itemtype="https://schema.org/Organization" class="logoWrapper"><a itemprop="url"
                             href="/">
                             <img itemprop="logo"
                                 src="{{ $settings['logo'] != '' ? sourceSetting($settings['logo']) ?? '/assets/img/logo.png' : '/assets/img/logo.png' }}"
-                                width="200" height="30px" title="{{ $settings['site_name'] }}"
+                                width="200" title="{{ $settings['site_name'] }}"
                                 alt="{{ $settings['title'] }}"></a>
                     </div>
                 </div>
