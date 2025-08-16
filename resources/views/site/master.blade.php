@@ -207,7 +207,7 @@
         <div id="header">
             <header>
                 <h1 class="hidden">{{ $settings['site_name'] ?? 'MeSex.tv' }}</h1>
-                <div id="logo" style="margin-top: 0">
+                <div id="logo">
                     <div itemscope="" itemtype="https://schema.org/Organization" class="logoWrapper"><a itemprop="url"
                             href="/">
                             <img itemprop="logo"
