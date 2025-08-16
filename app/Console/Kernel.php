@@ -13,6 +13,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         $schedule->command('xxvn:daily-movies')->hourly();
+         $schedule->command('movies:bump-updated --limit=5')->everyThirtyMinutes();
     }
 
     /**
